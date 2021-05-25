@@ -64,8 +64,11 @@ body {
 
 #open{
     left: 120px;
-    outline:none;
     cursor: pointer;
+}
+
+#open:focus{
+    outline:none;
 }
 
 #close{
@@ -75,6 +78,10 @@ body {
     transform: rotate(90deg);
     transform-origin: top left ;
 
+}
+
+#close:focus{
+    outline: none;
 }
 
 nav{
