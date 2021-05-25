@@ -65,11 +65,9 @@ body {
 #open{
     left: 120px;
     cursor: pointer;
+    outline: none;
 }
 
-#open:focus{
-    outline:none;
-}
 
 #close{
     cursor: pointer;
@@ -80,9 +78,6 @@ body {
 
 }
 
-#close:focus{
-    outline: none;
-}
 
 nav{
     position: fixed;
